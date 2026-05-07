@@ -12,7 +12,7 @@
   width: 1268px;
   margin: 0 auto;
   padding: 10px 10px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -124,7 +124,7 @@ body {
 /* about */
 
 .about {
-    align-items: center;
+  align-items: center;
   padding-top: 129px;
   padding-bottom: 105px;
 }
