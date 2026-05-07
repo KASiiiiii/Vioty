@@ -1,0 +1,194 @@
+:root {
+  --BG: #000;
+  --accent-color: #d23166;
+  --main-color: #ffffff;
+  --social-BG: rgba(255, 255, 255, 0.1);
+  --social-text: #f2f2f2;
+  --card-BG: #151515;
+  --about-text: rgba(255, 255, 255, 0.2);
+}
+
+.container {
+  width: 1268px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  outline: 1px solid red;
+}
+
+body {
+  background-color: var(--BG);
+}
+
+/* header */
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 95px;
+}
+
+.header-link {
+  color: var(--main-color);
+  text-align: justify;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.39;
+}
+
+.header-items {
+  display: flex;
+  gap: 15px;
+}
+
+.header-social {
+  width: 36px;
+  height: 36px;
+  background-color: var(--social-BG);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* hero */
+
+.hero .container {
+  display: flex;
+  gap: 73px;
+  align-items: center;
+}
+
+.hero-text {
+  align-self: stretch;
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 1.4px;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  width: 587px;
+  align-self: stretch;
+  color: var(--main-color);
+  font-family: Alexandria;
+  font-size: 57px;
+  font-weight: 400;
+  line-height: 94%;
+  letter-spacing: -4.013px;
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+
+.hero-span {
+  color: var(--accent-color);
+}
+
+.hero-desk {
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.6;
+  width: 578px;
+  margin-bottom: 48px;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  padding: 13px 50px;
+  color: var(--main-color);
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  border: none;
+}
+
+/* about */
+
+.about {
+    align-items: center;
+  padding-top: 129px;
+  padding-bottom: 105px;
+}
+
+.about .container {
+  position: relative;
+}
+
+.about-text {
+  margin: 0 auto;
+  width: 1119px;
+  color: var(--main-color);
+  text-align: center;
+  font-family: Alexandria;
+  font-size: 57.33px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -4.013px;
+  opacity: 0.9;
+}
+
+.about-span {
+  color: var(--about-text);
+}
+
+.about-milk {
+  position: absolute;
+  left: 42px;
+  top: 112px;
+}
+
+.about-pistachio {
+  position: absolute;
+  top: -70px;
+  right: 115px;
+}
+
+.about-strawberry {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+}
+
+/* .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+} */
+
+/* .list > li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} */
