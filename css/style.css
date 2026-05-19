@@ -6,6 +6,7 @@
   --social-text: #f2f2f2;
   --card-BG: #151515;
   --about-text: rgba(255, 255, 255, 0.2);
+  --link-text: rgba(255, 255, 255, 0.8);
 }
 
 .container {
@@ -286,7 +287,63 @@ body {
   border: none;
 }
 
-/* .list {
+/* order */
+
+.order {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.order .container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.order-div {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.order-title {
+  margin-bottom: 16px;
+  color: var(--main-color);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 94%;
+  letter-spacing: -3.92px;
+  opacity: 0.9;
+}
+
+.order-accent {
+  color: var(--accent-color);
+}
+
+.order-text {
+  margin-bottom: 64px;
+  align-self: stretch;
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.6;
+}
+
+.order-item {
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-numbers {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -295,7 +352,7 @@ body {
   gap: 20px;
 }
 
-/* span {
+.order-span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -303,10 +360,179 @@ body {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-} */
+}
 
-/* .list > li {
+.order-app {
   display: flex;
   align-items: center;
-  gap: 20px;
-} */
+  gap: 12px;
+}
+
+/* question */
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 223px;
+  padding-top: 223px;
+}
+
+.question .container {
+  width: 653px;
+  align-items: center;
+}
+
+.question-title {
+  width: 653px;
+  align-self: stretch;
+  color: var(--main-color);
+  text-align: center;
+  font-family: Alexandria;
+  font-size: 57.33px;
+  font-weight: 400;
+  line-height: 94%;
+  letter-spacing: -4.013px;
+  opacity: 0.9;
+  margin-bottom: 56px;
+}
+
+.question-span {
+  color: var(--accent-color);
+}
+
+.question-form {
+  width: 637px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 1000px;
+}
+
+.question-btn {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+
+  display: flex;
+  width: 134px;
+  padding: 28px 31px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--accent-color);
+  border: none;
+}
+
+.question-input {
+  width: 637px;
+  background: none;
+  display: flex;
+  padding: 29px 30px;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  border-radius: 100px;
+  border: 1px solid var(--main-color);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+/* footer */
+
+.footer {
+  background: var(--card-BG);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.footer .container {
+  display: flex;
+  gap: 176px;
+  align-items: flex-start;
+
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 212px;
+  align-items: flex-start;
+}
+
+.footer-text {
+  align-self: stretch;
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 139.687%;
+  letter-spacing: 0.14px;
+  opacity: 0.7;
+}
+
+.footer-items {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social {
+  width: 36px;
+  height: 36px;
+  background-color: var(--social-BG);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: end;
+  gap: 176px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-title {
+  align-self: stretch;
+  color: var(--main-color);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+
+.footer-item {
+  color: var(--link-text);
+  text-align: justify;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-a {
+  color: var(--link-text);
+  text-align: justify;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
